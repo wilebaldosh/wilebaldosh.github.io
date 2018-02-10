@@ -1,0 +1,4 @@
+Sitemap: https://wilebaldosh.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: wilebaldosh.github.io

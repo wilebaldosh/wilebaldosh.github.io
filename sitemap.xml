@@ -15,15 +15,23 @@
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/archive.html</loc>
-  <lastmod>2018-02-10T21:19:00Z</lastmod>
+  <lastmod>2018-02-10T21:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/categories/</loc>
-  <lastmod>2018-02-10T21:19:00Z</lastmod>
+  <lastmod>2018-02-10T21:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/categories/cat_general/</loc>
   <lastmod>2018-02-10T21:19:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/categories/cat_python3/</loc>
+  <lastmod>2018-02-10T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/categories/python3/</loc>
+  <lastmod>2018-02-10T21:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/galleries/</loc>
@@ -32,6 +40,10 @@
  <url>
   <loc>https://wilebaldosh.github.io/listings/</loc>
   <lastmod>2018-02-10T21:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/posts/aprendiendo-python-3/</loc>
+  <lastmod>2018-02-10T21:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/posts/bienvenida/</loc>

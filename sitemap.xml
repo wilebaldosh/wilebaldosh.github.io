@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://wilebaldosh.github.io/</loc>
-  <lastmod>2018-02-10T21:19:00Z</lastmod>
+  <lastmod>2018-02-12T01:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/2018/</loc>
@@ -15,11 +15,15 @@
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/archive.html</loc>
-  <lastmod>2018-02-10T21:51:00Z</lastmod>
+  <lastmod>2018-02-11T23:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/categories/</loc>
-  <lastmod>2018-02-10T21:51:00Z</lastmod>
+  <lastmod>2018-02-11T23:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/categories/cat_general-rst/</loc>
+  <lastmod>2018-02-11T23:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/categories/cat_general/</loc>
@@ -32,6 +36,10 @@
  <url>
   <loc>https://wilebaldosh.github.io/categories/python3/</loc>
   <lastmod>2018-02-10T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/categories/rst/</loc>
+  <lastmod>2018-02-11T23:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://wilebaldosh.github.io/galleries/</loc>
@@ -48,5 +56,9 @@
  <url>
   <loc>https://wilebaldosh.github.io/posts/bienvenida/</loc>
   <lastmod>2018-02-10T21:19:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://wilebaldosh.github.io/posts/restructuredtext-a-test/</loc>
+  <lastmod>2018-02-11T23:37:00Z</lastmod>
  </url>
 </urlset>

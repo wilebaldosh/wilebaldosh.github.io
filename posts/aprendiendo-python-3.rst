@@ -7,5 +7,7 @@
 .. description:
 .. type: text
 
-A partir de hoy y gracias a que pude instalar nikola y vincularlo a mi cuenta
+A partir de hoy y gracias a que pude instalar nikola [#f1]_ y vincularlo a mi cuenta
 de GitHub, me dispongo a aprender `Python 3 <http://www.python.org>`_.
+
+.. [#f1] `Generador de sitios estáticos <https://getnikola.com/>`_

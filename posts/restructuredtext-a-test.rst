@@ -15,7 +15,7 @@ Párrafos:
 
 Este es un párrafo corto.
 
-  Este es otro párrafo, está identado.
+   Este es otro párrafo, está identado.
 
 Este es un tercer párrafo que contiene más texto. Se utiliza para ejemplificar el identado y la longitud, en pantalla, de los textos que aparecen en la página. Obviamente, habrá un salto de texto en el editor, más no en el resultado final ya
 que no habrá línea en blanco con respecto del cuarto párrafo.

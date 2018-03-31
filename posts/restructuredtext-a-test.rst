@@ -38,15 +38,15 @@ Listas
 1. Primer elemento del primer nivel.
 2. Segundo elemento del primer nivel.
 
-  a) Primer elemento del segundo nivel.
-  b) Segundo elemento del segundo nivel.
+   a) Primer elemento del segundo nivel.
+   b) Segundo elemento del segundo nivel.
 
-    i) Primer elemento en el tercer nivel.
-    ii) Segundo elemento en el tercer nivel.
+      i) Primer elemento en el tercer nivel.
+      ii) Segundo elemento en el tercer nivel.
 
-  c) Tercer elemento del segundo nivel.
+   c) Tercer elemento del segundo nivel.
 
-    i) Tercer elemento en el tercer nivel, pero depende del inciso 'c' en el segundo nivel.
+      i) Tercer elemento en el tercer nivel, pero depende del inciso 'c' en el segundo nivel.
 
 3. Tercer elemento del primer nivel.
 
@@ -57,7 +57,7 @@ Lista nueva:
   - Segundo nivel, con guión.
 
     + Tercer nivel, con signo de suma.
-
+	
   - Regresamos al segundo nivel, con otro guión.
 
 
@@ -111,3 +111,14 @@ Capítulo II
 ===========
 
 
+Imágenes:
+=========
+
+De una tortuga, por ejemplo.
+
+.. image:: /galleries/tortuga.jpg
+   :height: 480
+   :width: 640
+
+
+Fin del post.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog personal de Wilebaldo Santana (Publicaciones sobre Python3)</title><link>https://wilebaldosh.github.io/</link><description></description><atom:link href="https://wilebaldosh.github.io/categories/cat_python3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:wisahe@gmail.com"&gt;Wilebaldo Santana&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Apr 2018 00:07:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Aprendamos Python 3</title><link>https://wilebaldosh.github.io/posts/aprendamos-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;div class="section" id="articulo-en-proceso"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog personal de Wilebaldo Santana (Publicaciones sobre Python3)</title><link>https://wilebaldosh.github.io/</link><description></description><atom:link href="https://wilebaldosh.github.io/categories/cat_python3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:wisahe@gmail.com"&gt;Wilebaldo Santana&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Apr 2018 02:17:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Aprendamos Python 3</title><link>https://wilebaldosh.github.io/posts/aprendamos-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;div class="section" id="articulo-en-proceso"&gt;
 &lt;h2&gt;&lt;strong&gt;Artículo en proceso&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Vamos a ver algunos aspectos de este gran lenguaje de programación Python 3&lt;/p&gt;
 &lt;/div&gt;
@@ -21,31 +21,25 @@ lenguaje.&lt;/p&gt;
 da clic sobre la opción del &lt;em&gt;IDLE (Python GUI)&lt;/em&gt; de tu menú de Inicio.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Yo estoy utilizando Mac:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-$ python3
-Python 3.6.4 (default, Jan  6 2018, 11:51:59)
-[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-&amp;gt;&amp;gt;&amp;gt;
-&lt;/pre&gt;
-&lt;p&gt;Bien, ahora está corriendo y, ¿ahora qué?&lt;/p&gt;
-&lt;p&gt;Escribe esto: "Hola mundo!"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; "Hola mundo!"
-'Hola mundo!'
-&lt;/pre&gt;
-&lt;/div&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-1"&gt;&lt;/a&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;python3&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-2"&gt;&lt;/a&gt;&lt;span class="n"&gt;Python&lt;/span&gt; &lt;span class="mf"&gt;3.6&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Jan&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt; &lt;span class="mi"&gt;2018&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;51&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;GCC&lt;/span&gt; &lt;span class="mf"&gt;4.2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;Compatible&lt;/span&gt; &lt;span class="n"&gt;Apple&lt;/span&gt; &lt;span class="n"&gt;LLVM&lt;/span&gt; &lt;span class="mf"&gt;9.0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;clang&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;900.0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;39.2&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;darwin&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-4"&gt;&lt;/a&gt;&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="s2"&gt;"help"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"copyright"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"credits"&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="s2"&gt;"license"&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-5"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;Bien, ahora está corriendo y, ¿ahora qué?&lt;/p&gt;
+&lt;p&gt;Escribe esto: 'Hola mundo!'&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-1"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;
+&lt;a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-2"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;div class="section" id="esta-vivo-vivo"&gt;
 &lt;h2&gt;¡Está vivo, vivo!&lt;/h2&gt;
 &lt;p&gt;¿Qué fue lo que pasó? ¿Acaso acabamos de escribir el programa “Hola Mundo” más corto
 del mundo? No exactamente. La segunda linea sólo es la forma que tiene Python para
 decirnos el resultado de la última expresión evaluada. Si queremos que el programa
 escriba “Hola Mundo” necesitamos un poco más:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; print("Hola mundo!")
-Hola mundo!
-&lt;/pre&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>Python3</category><guid>https://wilebaldosh.github.io/posts/aprendamos-python-3/</guid><pubDate>Sat, 31 Mar 2018 20:10:43 GMT</pubDate></item><item><title>Aprendiendo Python 3</title><link>https://wilebaldosh.github.io/posts/aprendiendo-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;p&gt;A partir de hoy y gracias a que pude instalar nikola &lt;a class="footnote-reference" href="https://wilebaldosh.github.io/posts/aprendiendo-python-3/#f1" id="id1"&gt;[1]&lt;/a&gt; y vincularlo a mi cuenta
+&lt;pre class="code python"&gt;&lt;a name="rest_code_f5226297f52742608c8e306f8db57803-1"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_f5226297f52742608c8e306f8db57803-2"&gt;&lt;/a&gt;&lt;span class="n"&gt;Hola&lt;/span&gt; &lt;span class="n"&gt;mundo&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Python3</category><guid>https://wilebaldosh.github.io/posts/aprendamos-python-3/</guid><pubDate>Sat, 31 Mar 2018 20:10:43 GMT</pubDate></item><item><title>Aprendiendo Python 3</title><link>https://wilebaldosh.github.io/posts/aprendiendo-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;p&gt;A partir de hoy y gracias a que pude instalar nikola &lt;a class="footnote-reference" href="https://wilebaldosh.github.io/posts/aprendiendo-python-3/#f1" id="id1"&gt;[1]&lt;/a&gt; y vincularlo a mi cuenta
 de GitHub, me dispongo a aprender &lt;a class="reference external" href="http://www.python.org"&gt;Python 3&lt;/a&gt;.&lt;/p&gt;
 &lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;

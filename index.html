@@ -99,18 +99,16 @@ lenguaje.</p>
 da clic sobre la opción del <em>IDLE (Python GUI)</em> de tu menú de Inicio.</li>
 </ul>
 <p>Yo estoy utilizando Mac:</p>
-<pre class="literal-block">
-$ python3
-Python 3.6.4 (default, Jan  6 2018, 11:51:59)
-[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-&gt;&gt;&gt;
+<pre class="code python"><a name="rest_code_eea399035b1547f59f06fe57bb95fd55-1"></a><span class="err">$</span> <span class="n">python3</span>
+<a name="rest_code_eea399035b1547f59f06fe57bb95fd55-2"></a><span class="n">Python</span> <span class="mf">3.6</span><span class="o">.</span><span class="mi">4</span> <span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="n">Jan</span>  <span class="mi">6</span> <span class="mi">2018</span><span class="p">,</span> <span class="mi">11</span><span class="p">:</span><span class="mi">51</span><span class="p">:</span><span class="mi">59</span><span class="p">)</span>
+<a name="rest_code_eea399035b1547f59f06fe57bb95fd55-3"></a><span class="p">[</span><span class="n">GCC</span> <span class="mf">4.2</span><span class="o">.</span><span class="mi">1</span> <span class="n">Compatible</span> <span class="n">Apple</span> <span class="n">LLVM</span> <span class="mf">9.0</span><span class="o">.</span><span class="mi">0</span> <span class="p">(</span><span class="n">clang</span><span class="o">-</span><span class="mf">900.0</span><span class="o">.</span><span class="mf">39.2</span><span class="p">)]</span> <span class="n">on</span> <span class="n">darwin</span>
+<a name="rest_code_eea399035b1547f59f06fe57bb95fd55-4"></a><span class="n">Type</span> <span class="s2">"help"</span><span class="p">,</span> <span class="s2">"copyright"</span><span class="p">,</span> <span class="s2">"credits"</span> <span class="ow">or</span> <span class="s2">"license"</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
+<a name="rest_code_eea399035b1547f59f06fe57bb95fd55-5"></a><span class="o">&gt;&gt;&gt;</span>
 </pre>
 <p>Bien, ahora está corriendo y, ¿ahora qué?</p>
-<p>Escribe esto: "Hola mundo!"</p>
-<pre class="literal-block">
-&gt;&gt;&gt; "Hola mundo!"
-'Hola mundo!'
+<p>Escribe esto: 'Hola mundo!'</p>
+<pre class="code python"><a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="s1">'Hola mundo!'</span>
+<a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-2"></a><span class="s1">'Hola mundo!'</span>
 </pre>
 </div>
 <div class="section" id="esta-vivo-vivo">
@@ -119,9 +117,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 del mundo? No exactamente. La segunda linea sólo es la forma que tiene Python para
 decirnos el resultado de la última expresión evaluada. Si queremos que el programa
 escriba “Hola Mundo” necesitamos un poco más:</p>
-<pre class="literal-block">
-&gt;&gt;&gt; print("Hola mundo!")
-Hola mundo!
+<pre class="code python"><a name="rest_code_f5226297f52742608c8e306f8db57803-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s1">'Hola mundo!'</span><span class="p">)</span>
+<a name="rest_code_f5226297f52742608c8e306f8db57803-2"></a><span class="n">Hola</span> <span class="n">mundo</span><span class="err">!</span>
 </pre>
 </div>
 </div>
@@ -140,9 +137,49 @@ Hola mundo!
 </div>
     </header><div class="e-content entry-content">
     <div>
+<div class="contents topic" id="tabla-de-contenidos">
+<p class="topic-title first">Tabla de contenidos</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#parrafos" id="id1">1   Párrafos</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#estilos-de-texto" id="id2">2   Estilos de texto</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#listas" id="id3">3   Listas</a></li>
+<li>
+<a class="reference internal" href="posts/restructuredtext-a-test/#definiciones" id="id4">4   Definiciones</a><ul class="auto-toc">
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#field-lists" id="id5">4.1   Field Lists</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#block-quotes" id="id6">4.2   Block Quotes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#preformato" id="id7">5   Preformato</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#secciones" id="id8">6   Secciones</a></li>
+<li>
+<a class="reference internal" href="posts/restructuredtext-a-test/#capitulo-i" id="id9">7   Capítulo I</a><ul class="auto-toc">
+<li>
+<a class="reference internal" href="posts/restructuredtext-a-test/#seccion-1-1" id="id10">7.1   Sección 1.1.</a><ul class="auto-toc">
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#subseccion-1-1-1" id="id11">7.1.1   Subsección 1.1.1.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#seccion-1-2" id="id12">7.2   Sección 1.2.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#capitulo-ii" id="id13">8   Capítulo II</a></li>
+<li>
+<a class="reference internal" href="posts/restructuredtext-a-test/#media" id="id14">9   Media</a><ul class="auto-toc">
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#imagenes" id="id15">9.1   Imágenes</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#videos" id="id16">9.2   Vídeos</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#codigo" id="id17">10   Código</a></li>
+<li>
+<a class="reference internal" href="posts/restructuredtext-a-test/#formulas" id="id18">11   Fórmulas</a><ul class="auto-toc">
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#una-identidad-de-ramanujan" id="id19">11.1   Una identidad de Ramanujan</a></li>
+<li><a class="reference internal" href="posts/restructuredtext-a-test/#ecuacion-de-maxwell-s" id="id20">11.2   Ecuación de Maxwell's</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <p>Este post está destinado a la práctica y aprendizaje del uso de ReStructuredText, veamos como nos va.</p>
 <div class="section" id="parrafos">
-<h2>Párrafos:</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id1">1   Párrafos</a></h2>
 <div class="line-block">
 <div class="line">Este es un párrafo corto.</div>
 <div class="line-block">
@@ -155,13 +192,13 @@ ya que no habrá línea en blanco con respecto del cuarto párrafo.</div>
 </div>
 </div>
 <div class="section" id="estilos-de-texto">
-<h2>Estilos de texto</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id2">2   Estilos de texto</a></h2>
 <p><em>Itálica</em></p>
 <p><strong>Negrita</strong></p>
 <p><tt class="docutils literal">Monoespacio</tt></p>
 </div>
 <div class="section" id="listas">
-<h2>Listas</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id3">3   Listas</a></h2>
 <ol class="arabic simple">
 <li>Primer elemento del primer nivel.</li>
 <li>Segundo elemento del primer nivel.<ol class="loweralpha">
@@ -192,16 +229,50 @@ ya que no habrá línea en blanco con respecto del cuarto párrafo.</div>
 </ul>
 </div>
 <div class="section" id="definiciones">
-<h2>Definiciones:</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id4">4   Definiciones</a></h2>
 <dl class="docutils">
 <dt>Igualdad</dt>
 <dd>Principio que reconoce la equiparación de todos los ciudadanos en derechos y obligaciones.</dd>
 <dt><em>Equidad</em></dt>
 <dd>Justicia natural, por oposición a la letra de la ley positiva.</dd>
 </dl>
+<div class="section" id="field-lists">
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id5">4.1   Field Lists</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field">
+<th class="field-name">what:</th>
+<td class="field-body">
+<p class="first">Field lists map field names to field bodies, like database
+records.  They are often part of an extension syntax.  They are
+an unambiguous variant of RFC 2822 fields.</p>
+</td>
+</tr>
+<tr class="field">
+<th class="field-name">how arg1 arg2:</th>
+<td class="field-body">
+<p class="first">The field marker is a colon, the field name, and a colon.</p>
+<p class="last">The field body may contain one or more body elements, indented
+relative to the field marker.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="block-quotes">
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id6">4.2   Block Quotes</a></h3>
+<p>Block quotes consist of indented body elements:</p>
+<blockquote>
+<p>Mi teoría sobre la vida es que, ésta es una desmadre. Pero no dejes
+que te impresione... Jajajaja</p>
+<p class="attribution">—Will Santana</p>
+</blockquote>
+</div>
 </div>
 <div class="section" id="preformato">
-<h2>Preformato:</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id7">5   Preformato</a></h2>
 <p>Ahora, por ejemplo, veremos un texto dentro de un recuadro:</p>
 <pre class="literal-block">
   Espacios, líneas nuevas, líneas en blanco y toda clase de markup
@@ -218,27 +289,110 @@ Al parecer
 <p>Este otro texto está fuera de la caja.</p>
 </div>
 <div class="section" id="secciones">
-<h2>Secciones:</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id8">6   Secciones</a></h2>
 </div>
 <div class="section" id="capitulo-i">
-<h2>Capítulo I</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id9">7   Capítulo I</a></h2>
 <div class="section" id="seccion-1-1">
-<h3>Sección 1.1.</h3>
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id10">7.1   Sección 1.1.</a></h3>
 <div class="section" id="subseccion-1-1-1">
-<h4>Subsección 1.1.1.</h4>
+<h4><a class="toc-backref" href="posts/restructuredtext-a-test/#id11">7.1.1   Subsección 1.1.1.</a></h4>
 </div>
 </div>
 <div class="section" id="seccion-1-2">
-<h3>Sección 1.2.</h3>
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id12">7.2   Sección 1.2.</a></h3>
 </div>
 </div>
 <div class="section" id="capitulo-ii">
-<h2>Capítulo II</h2>
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id13">8   Capítulo II</a></h2>
 </div>
+<div class="section" id="media">
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id14">9   Media</a></h2>
 <div class="section" id="imagenes">
-<h2>Imágenes:</h2>
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id15">9.1   Imágenes</a></h3>
 <p>De una tortuga, por ejemplo.</p>
-<img alt="/galleries/tortuga.jpg" src="galleries/tortuga.jpg" style="width: 640px; height: 480px;"><p>Fin del post.</p>
+<img alt="/galleries/tortuga.jpg" src="galleries/tortuga.jpg" style="width: 640px; height: 480px;">
+</div>
+<div class="section" id="videos">
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id16">9.2   Vídeos</a></h3>
+<p>Youtube:</p>
+<div class="youtube-video align-center">
+<iframe width="700" height="344" src="https://www.youtube.com/embed/yYY06G4R7zY?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+</div>
+<p>Vimeo:</p>
+<div class="vimeo-video align-left">
+<iframe src="https://player.vimeo.com/video/61620799" width="1280" height="720" frameborder="0" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowFullScreen">
+</iframe>
+</div>
+</div>
+</div>
+<div class="section" id="codigo">
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id17">10   Código</a></h2>
+<p>Código en Python, <em>con</em> números de línea.</p>
+<table class="codetable"><tr>
+<td class="linenos"><div class="linenodiv"><pre><a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-1">1</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-2">2</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-3">3</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-4">4</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-5">5</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-6">6</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-7">7</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-8">8</a>
+<a href="posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-9">9</a></pre></div></td>
+<td class="code"><pre class="code python"><a name="rest_code_3f50680069b7454f91410d151947fa90-1"></a><span class="k">def</span> <span class="nf">sieve_of_eratosthenes</span><span class="p">():</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-2"></a>    <span class="n">factors</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">set</span><span class="p">)</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-3"></a>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-4"></a>        <span class="k">if</span> <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-5"></a>            <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">factors</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-6"></a>                <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-7"></a>        <span class="k">else</span><span class="p">:</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-8"></a>            <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<a name="rest_code_3f50680069b7454f91410d151947fa90-9"></a>            <span class="k">yield</span> <span class="n">n</span>
+</pre></td>
+</tr></table>
+<p>Código en Python, <em>sin</em> números de línea.</p>
+<pre class="code python"><a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-1"></a><span class="k">def</span> <span class="nf">sieve_of_eratosthenes</span><span class="p">():</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-2"></a>    <span class="n">factors</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">set</span><span class="p">)</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-3"></a>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-4"></a>        <span class="k">if</span> <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-5"></a>            <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">factors</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-6"></a>                <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-7"></a>        <span class="k">else</span><span class="p">:</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-8"></a>            <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-9"></a>            <span class="k">yield</span> <span class="n">n</span>
+</pre>
+</div>
+<div class="section" id="formulas">
+<h2><a class="toc-backref" href="posts/restructuredtext-a-test/#id18">11   Fórmulas</a></h2>
+<p>Para poder usar esta extensión, es necesario agregsar 'mathjax' a la sección tags
+del documento. Recuerda que si agregas varios tags, deberán ir separados por comas.</p>
+<div class="section" id="una-identidad-de-ramanujan">
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id19">11.1   Una identidad de Ramanujan</a></h3>
+<div class="math">
+\begin{equation*}
+\frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }
+\end{equation*}
+</div>
+</div>
+<div class="section" id="ecuacion-de-maxwell-s">
+<h3><a class="toc-backref" href="posts/restructuredtext-a-test/#id20">11.2   Ecuación de Maxwell's</a></h3>
+<div class="math">
+\begin{align*}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+\nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align*}
+</div>
+<p>While displaying equations look good for a page of samples, the
+ability to mix math and text in a paragraph is also important.
+This expression <span class="math">\(\sqrt{3x-1}+(1+x)^2\)</span> is an example of an
+inline equation. As you see, MathJax equations can be used this
+way as well, without unduly disturbing the spacing between lines.</p>
+<p>Fin del post.</p>
+</div>
 </div>
 </div>
     </div>
@@ -294,9 +448,21 @@ de GitHub, me dispongo a aprender <a class="reference external" href="http://www
 
 
 
-
-
-        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha256-SDRP1VVYu+tgAGKhddBSl5+ezofHKZeI+OzxakbIe/Y=" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'left' if you want left-aligned equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+</div>
         <!--End of body content-->
 
         <footer id="footer">

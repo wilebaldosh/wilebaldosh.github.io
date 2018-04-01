@@ -35,21 +35,23 @@ Arranca el intérprete.
   da clic sobre la opción del *IDLE (Python GUI)* de tu menú de Inicio.
 
 Yo estoy utilizando Mac:
-::
 
-  $ python3
-  Python 3.6.4 (default, Jan  6 2018, 11:51:59) 
-  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
-  Type "help", "copyright", "credits" or "license" for more information.
-  >>> 
+.. code-block:: python
+
+    $ python3
+    Python 3.6.4 (default, Jan  6 2018, 11:51:59) 
+    [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> 
 
 Bien, ahora está corriendo y, ¿ahora qué?
 
-Escribe esto: "Hola mundo!"
-::
+Escribe esto: 'Hola mundo!'
 
-  >>> "Hola mundo!"
-  'Hola mundo!'
+.. code-block:: python
+
+    >>> 'Hola mundo!'
+    'Hola mundo!'
 
 ¡Está vivo, vivo!
 =================
@@ -58,7 +60,8 @@ Escribe esto: "Hola mundo!"
 del mundo? No exactamente. La segunda linea sólo es la forma que tiene Python para
 decirnos el resultado de la última expresión evaluada. Si queremos que el programa
 escriba “Hola Mundo” necesitamos un poco más:
-::
 
-  >>> print("Hola mundo!")
-  Hola mundo!
+.. code-block:: python
+
+    >>> print('Hola mundo!')
+    Hola mundo!

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog personal de Wilebaldo Santana</title><link>https://wilebaldosh.github.io/</link><description>Vida, ciencias, artes y demás.</description><atom:link href="https://wilebaldosh.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:wisahe@gmail.com"&gt;Wilebaldo Santana&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Apr 2018 00:07:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Aprendamos Python 3</title><link>https://wilebaldosh.github.io/posts/aprendamos-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;div class="section" id="articulo-en-proceso"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog personal de Wilebaldo Santana</title><link>https://wilebaldosh.github.io/</link><description>Vida, ciencias, artes y demás.</description><atom:link href="https://wilebaldosh.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:wisahe@gmail.com"&gt;Wilebaldo Santana&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Apr 2018 02:51:56 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Aprendamos Python 3</title><link>https://wilebaldosh.github.io/posts/aprendamos-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;div class="section" id="articulo-en-proceso"&gt;
 &lt;h2&gt;&lt;strong&gt;Artículo en proceso&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Vamos a ver algunos aspectos de este gran lenguaje de programación Python 3&lt;/p&gt;
 &lt;/div&gt;
@@ -21,33 +21,62 @@ lenguaje.&lt;/p&gt;
 da clic sobre la opción del &lt;em&gt;IDLE (Python GUI)&lt;/em&gt; de tu menú de Inicio.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Yo estoy utilizando Mac:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-$ python3
-Python 3.6.4 (default, Jan  6 2018, 11:51:59)
-[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-&amp;gt;&amp;gt;&amp;gt;
-&lt;/pre&gt;
-&lt;p&gt;Bien, ahora está corriendo y, ¿ahora qué?&lt;/p&gt;
-&lt;p&gt;Escribe esto: "Hola mundo!"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; "Hola mundo!"
-'Hola mundo!'
-&lt;/pre&gt;
-&lt;/div&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-1"&gt;&lt;/a&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;python3&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-2"&gt;&lt;/a&gt;&lt;span class="n"&gt;Python&lt;/span&gt; &lt;span class="mf"&gt;3.6&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Jan&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt; &lt;span class="mi"&gt;2018&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;51&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;GCC&lt;/span&gt; &lt;span class="mf"&gt;4.2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;Compatible&lt;/span&gt; &lt;span class="n"&gt;Apple&lt;/span&gt; &lt;span class="n"&gt;LLVM&lt;/span&gt; &lt;span class="mf"&gt;9.0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;clang&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;900.0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;39.2&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;darwin&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-4"&gt;&lt;/a&gt;&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="s2"&gt;"help"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"copyright"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"credits"&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="s2"&gt;"license"&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;a name="rest_code_eea399035b1547f59f06fe57bb95fd55-5"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;Bien, ahora está corriendo y, ¿ahora qué?&lt;/p&gt;
+&lt;p&gt;Escribe esto: 'Hola mundo!'&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-1"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;
+&lt;a name="rest_code_1d483d0de7004f38afdc2dd4e01e5be7-2"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;div class="section" id="esta-vivo-vivo"&gt;
 &lt;h2&gt;¡Está vivo, vivo!&lt;/h2&gt;
 &lt;p&gt;¿Qué fue lo que pasó? ¿Acaso acabamos de escribir el programa “Hola Mundo” más corto
 del mundo? No exactamente. La segunda linea sólo es la forma que tiene Python para
 decirnos el resultado de la última expresión evaluada. Si queremos que el programa
 escriba “Hola Mundo” necesitamos un poco más:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; print("Hola mundo!")
-Hola mundo!
-&lt;/pre&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>Python3</category><guid>https://wilebaldosh.github.io/posts/aprendamos-python-3/</guid><pubDate>Sat, 31 Mar 2018 20:10:43 GMT</pubDate></item><item><title>reStructuredText a Test</title><link>https://wilebaldosh.github.io/posts/restructuredtext-a-test/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;p&gt;Este post está destinado a la práctica y aprendizaje del uso de ReStructuredText, veamos como nos va.&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_f5226297f52742608c8e306f8db57803-1"&gt;&lt;/a&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Hola mundo!'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_f5226297f52742608c8e306f8db57803-2"&gt;&lt;/a&gt;&lt;span class="n"&gt;Hola&lt;/span&gt; &lt;span class="n"&gt;mundo&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Python3</category><guid>https://wilebaldosh.github.io/posts/aprendamos-python-3/</guid><pubDate>Sat, 31 Mar 2018 20:10:43 GMT</pubDate></item><item><title>reStructuredText a Test</title><link>https://wilebaldosh.github.io/posts/restructuredtext-a-test/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;div class="contents topic" id="tabla-de-contenidos"&gt;
+&lt;p class="topic-title first"&gt;Tabla de contenidos&lt;/p&gt;
+&lt;ul class="auto-toc simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#parrafos" id="id1"&gt;1   Párrafos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#estilos-de-texto" id="id2"&gt;2   Estilos de texto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#listas" id="id3"&gt;3   Listas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#definiciones" id="id4"&gt;4   Definiciones&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#field-lists" id="id5"&gt;4.1   Field Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#block-quotes" id="id6"&gt;4.2   Block Quotes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#preformato" id="id7"&gt;5   Preformato&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#secciones" id="id8"&gt;6   Secciones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#capitulo-i" id="id9"&gt;7   Capítulo I&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#seccion-1-1" id="id10"&gt;7.1   Sección 1.1.&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#subseccion-1-1-1" id="id11"&gt;7.1.1   Subsección 1.1.1.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#seccion-1-2" id="id12"&gt;7.2   Sección 1.2.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#capitulo-ii" id="id13"&gt;8   Capítulo II&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#media" id="id14"&gt;9   Media&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#imagenes" id="id15"&gt;9.1   Imágenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#videos" id="id16"&gt;9.2   Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#codigo" id="id17"&gt;10   Código&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#formulas" id="id18"&gt;11   Fórmulas&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#una-identidad-de-ramanujan" id="id19"&gt;11.1   Una identidad de Ramanujan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#ecuacion-de-maxwell-s" id="id20"&gt;11.2   Ecuación de Maxwell's&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Este post está destinado a la práctica y aprendizaje del uso de ReStructuredText, veamos como nos va.&lt;/p&gt;
 &lt;div class="section" id="parrafos"&gt;
-&lt;h2&gt;Párrafos:&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id1"&gt;1   Párrafos&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Este es un párrafo corto.&lt;/div&gt;
 &lt;div class="line-block"&gt;
@@ -60,13 +89,13 @@ ya que no habrá línea en blanco con respecto del cuarto párrafo.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="estilos-de-texto"&gt;
-&lt;h2&gt;Estilos de texto&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id2"&gt;2   Estilos de texto&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Itálica&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Negrita&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;tt class="docutils literal"&gt;Monoespacio&lt;/tt&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="listas"&gt;
-&lt;h2&gt;Listas&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id3"&gt;3   Listas&lt;/a&gt;&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;Primer elemento del primer nivel.&lt;/li&gt;
 &lt;li&gt;Segundo elemento del primer nivel.&lt;ol class="loweralpha"&gt;
@@ -97,16 +126,44 @@ ya que no habrá línea en blanco con respecto del cuarto párrafo.&lt;/div&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="definiciones"&gt;
-&lt;h2&gt;Definiciones:&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id4"&gt;4   Definiciones&lt;/a&gt;&lt;/h2&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;Igualdad&lt;/dt&gt;
 &lt;dd&gt;Principio que reconoce la equiparación de todos los ciudadanos en derechos y obligaciones.&lt;/dd&gt;
 &lt;dt&gt;&lt;em&gt;Equidad&lt;/em&gt;&lt;/dt&gt;
 &lt;dd&gt;Justicia natural, por oposición a la letra de la ley positiva.&lt;/dd&gt;
 &lt;/dl&gt;
+&lt;div class="section" id="field-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id5"&gt;4.1   Field Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name"&gt;
+&lt;col class="field-body"&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;what:&lt;/th&gt;&lt;td class="field-body"&gt;&lt;p class="first"&gt;Field lists map field names to field bodies, like database
+records.  They are often part of an extension syntax.  They are
+an unambiguous variant of RFC 2822 fields.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;how arg1 arg2:&lt;/th&gt;&lt;td class="field-body"&gt;&lt;p class="first"&gt;The field marker is a colon, the field name, and a colon.&lt;/p&gt;
+&lt;p class="last"&gt;The field body may contain one or more body elements, indented
+relative to the field marker.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="block-quotes"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id6"&gt;4.2   Block Quotes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Block quotes consist of indented body elements:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mi teoría sobre la vida es que, ésta es una desmadre. Pero no dejes
+que te impresione... Jajajaja&lt;/p&gt;
+&lt;p class="attribution"&gt;—Will Santana&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="preformato"&gt;
-&lt;h2&gt;Preformato:&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id7"&gt;5   Preformato&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Ahora, por ejemplo, veremos un texto dentro de un recuadro:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
   Espacios, líneas nuevas, líneas en blanco y toda clase de markup
@@ -123,29 +180,105 @@ Al parecer
 &lt;p&gt;Este otro texto está fuera de la caja.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="secciones"&gt;
-&lt;h2&gt;Secciones:&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id8"&gt;6   Secciones&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;div class="section" id="capitulo-i"&gt;
-&lt;h2&gt;Capítulo I&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id9"&gt;7   Capítulo I&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="seccion-1-1"&gt;
-&lt;h3&gt;Sección 1.1.&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id10"&gt;7.1   Sección 1.1.&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="section" id="subseccion-1-1-1"&gt;
-&lt;h4&gt;Subsección 1.1.1.&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id11"&gt;7.1.1   Subsección 1.1.1.&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="seccion-1-2"&gt;
-&lt;h3&gt;Sección 1.2.&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id12"&gt;7.2   Sección 1.2.&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="capitulo-ii"&gt;
-&lt;h2&gt;Capítulo II&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id13"&gt;8   Capítulo II&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
+&lt;div class="section" id="media"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id14"&gt;9   Media&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="imagenes"&gt;
-&lt;h2&gt;Imágenes:&lt;/h2&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id15"&gt;9.1   Imágenes&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;De una tortuga, por ejemplo.&lt;/p&gt;
 &lt;img alt="/galleries/tortuga.jpg" src="https://wilebaldosh.github.io/galleries/tortuga.jpg" style="width: 640px; height: 480px;"&gt;
+&lt;/div&gt;
+&lt;div class="section" id="videos"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id16"&gt;9.2   Vídeos&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Youtube:&lt;/p&gt;
+&lt;div class="youtube-video align-center"&gt;
+&lt;iframe width="700" height="344" src="https://www.youtube.com/embed/yYY06G4R7zY?rel=0&amp;amp;hd=1&amp;amp;wmode=transparent"&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;p&gt;Vimeo:&lt;/p&gt;
+&lt;div class="vimeo-video align-left"&gt;
+&lt;iframe src="https://player.vimeo.com/video/61620799" width="1280" height="720" frameborder="0" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowFullScreen"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="codigo"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id17"&gt;10   Código&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Código en Python, &lt;em&gt;con&lt;/em&gt; números de línea.&lt;/p&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-1"&gt;1&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-2"&gt;2&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-3"&gt;3&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-4"&gt;4&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-5"&gt;5&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-6"&gt;6&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-7"&gt;7&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-8"&gt;8&lt;/a&gt;
+&lt;a href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#rest_code_3f50680069b7454f91410d151947fa90-9"&gt;9&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code python"&gt;&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sieve_of_eratosthenes&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-2"&gt;&lt;/a&gt;    &lt;span class="n"&gt;factors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;defaultdict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-4"&gt;&lt;/a&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-5"&gt;&lt;/a&gt;            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-6"&gt;&lt;/a&gt;                &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-7"&gt;&lt;/a&gt;        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-8"&gt;&lt;/a&gt;            &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_3f50680069b7454f91410d151947fa90-9"&gt;&lt;/a&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Código en Python, &lt;em&gt;sin&lt;/em&gt; números de línea.&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sieve_of_eratosthenes&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-2"&gt;&lt;/a&gt;    &lt;span class="n"&gt;factors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;defaultdict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-4"&gt;&lt;/a&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-5"&gt;&lt;/a&gt;            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-6"&gt;&lt;/a&gt;                &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-7"&gt;&lt;/a&gt;        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-8"&gt;&lt;/a&gt;            &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_204dcda3b2f140ca8245ef443b4b8a84-9"&gt;&lt;/a&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="section" id="formulas"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id18"&gt;11   Fórmulas&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Para poder usar esta extensión, es necesario agregsar 'mathjax' a la sección tags
+del documento. Recuerda que si agregas varios tags, deberán ir separados por comas.&lt;/p&gt;
+&lt;div class="section" id="una-identidad-de-ramanujan"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id19"&gt;11.1   Una identidad de Ramanujan&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }
+\end{equation*}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ecuacion-de-maxwell-s"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://wilebaldosh.github.io/posts/restructuredtext-a-test/#id20"&gt;11.2   Ecuación de Maxwell's&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp;amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+\nabla \cdot \vec{\mathbf{E}} &amp;amp; = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp;amp; = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} &amp;amp; = 0
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;While displaying equations look good for a page of samples, the
+ability to mix math and text in a paragraph is also important.
+This expression &lt;span class="math"&gt;\(\sqrt{3x-1}+(1+x)^2\)&lt;/span&gt; is an example of an
+inline equation. As you see, MathJax equations can be used this
+way as well, without unduly disturbing the spacing between lines.&lt;/p&gt;
 &lt;p&gt;Fin del post.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>rst</category><guid>https://wilebaldosh.github.io/posts/restructuredtext-a-test/</guid><pubDate>Sun, 11 Feb 2018 23:29:13 GMT</pubDate></item><item><title>Aprendiendo Python 3</title><link>https://wilebaldosh.github.io/posts/aprendiendo-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;p&gt;A partir de hoy y gracias a que pude instalar nikola &lt;a class="footnote-reference" href="https://wilebaldosh.github.io/posts/aprendiendo-python-3/#f1" id="id1"&gt;[1]&lt;/a&gt; y vincularlo a mi cuenta
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>mathjax</category><category>rst</category><guid>https://wilebaldosh.github.io/posts/restructuredtext-a-test/</guid><pubDate>Sun, 11 Feb 2018 23:29:13 GMT</pubDate></item><item><title>Aprendiendo Python 3</title><link>https://wilebaldosh.github.io/posts/aprendiendo-python-3/</link><dc:creator>Wilebaldo Santana</dc:creator><description>&lt;div&gt;&lt;p&gt;A partir de hoy y gracias a que pude instalar nikola &lt;a class="footnote-reference" href="https://wilebaldosh.github.io/posts/aprendiendo-python-3/#f1" id="id1"&gt;[1]&lt;/a&gt; y vincularlo a mi cuenta
 de GitHub, me dispongo a aprender &lt;a class="reference external" href="http://www.python.org"&gt;Python 3&lt;/a&gt;.&lt;/p&gt;
 &lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;

@@ -76,7 +76,52 @@
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p>Escriba su publicación aquí.</p>
+    <div>
+<p>Vamos a ver algunos aspectos de este gran lenguaje de programación Python 3</p>
+<div class="section" id="introduccion">
+<h2>Introducción</h2>
+<p>Este es un pequeño tutorial de Python que no debería tomar mucho tiempo en completarlo.
+Asumo que ya tienes instalado Python, sino instálalo antes de comenzar.</p>
+</div>
+<div class="section" id="python-interactivo">
+<h2>Python interactivo</h2>
+<p>Python incluye un programa que mostrará el resultado de cualquier comando Python que le introduzcas.
+Jugar con código Python en una sesión interactiva como ésta es una manera estupenda de aprender el
+lenguaje.</p>
+<p>Arranca el intérprete.</p>
+<ul class="simple">
+<li>Si estás usando Mac OS X abre una Terminal y escribe <em>python3</em>, después presiona enter.</li>
+<li>Si estás usando Linux, abre una Terminal y escribe <em>python3</em>, después presiona enter.</li>
+<li>Si estás usando Windows, abre una consola y escribe python ó ve al menú de python y
+da clic sobre la opción del <em>IDLE (Python GUI)</em> de tu menú de Inicio.</li>
+</ul>
+<p>Yo estoy utilizando Mac:</p>
+<pre class="literal-block">
+$ python3
+Python 3.6.4 (default, Jan  6 2018, 11:51:59)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt;
+</pre>
+<p>Bien, ahora está corriendo y, ¿ahora qué?</p>
+<p>Escribe esto: "Hola mundo!"</p>
+<pre class="literal-block">
+&gt;&gt;&gt; "Hola mundo!"
+'Hola mundo!'
+</pre>
+</div>
+<div class="section" id="esta-vivo-vivo">
+<h2>¡Está vivo, vivo!</h2>
+<p>¿Qué fue lo que pasó? ¿Acaso acabamos de escribir el programa “Hola Mundo” más corto
+del mundo? No exactamente. La segunda linea sólo es la forma que tiene Python para
+decirnos el resultado de la última expresión evaluada. Si queremos que el programa
+escriba “Hola Mundo” necesitamos un poco más:</p>
+<pre class="literal-block">
+&gt;&gt;&gt; print("Hola mundo!")
+Hola mundo!
+</pre>
+</div>
+</div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/restructuredtext-a-test/" class="u-url">reStructuredText a Test</a></h1>
         <div class="metadata">
@@ -96,8 +141,9 @@
 <div class="section" id="parrafos">
 <h2>Párrafos:</h2>
 <p>Este es un párrafo corto.</p>
-<blockquote>
-Este es otro párrafo, está identado.</blockquote>
+<div class="line-block">
+<div class="line">Este es otro párrafo, está identado.</div>
+</div>
 <p>Este es un tercer párrafo que contiene más texto. Se utiliza para ejemplificar el identado y la longitud, en pantalla, de los textos que aparecen en la página. Obviamente, habrá un salto de texto en el editor, más no en el resultado final ya
 que no habrá línea en blanco con respecto del cuarto párrafo.</p>
 <p>Aquí está el cuarto párrafo.</p>

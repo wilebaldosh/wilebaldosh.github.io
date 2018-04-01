@@ -1,17 +1,21 @@
 .. title: reStructuredText a Test
 .. slug: restructuredtext-a-test
 .. date: 2018-02-11 17:29:13 UTC-06:00
-.. tags: rst
-.. category: General, rst
+.. tags: rst, mathjax
+.. category: general, rst
 .. link: 
 .. description: 
 .. type: text
 
+.. contents:: Tabla de contenidos
+.. section-numbering::
+
+
 
 Este post está destinado a la práctica y aprendizaje del uso de ReStructuredText, veamos como nos va.
 
-Párrafos:
-=========
+Párrafos
+========
 
 | Este es un párrafo corto.
 |   Este es otro párrafo, está identado.
@@ -59,8 +63,8 @@ Lista nueva:
   - Regresamos al segundo nivel, con otro guión.
 
 
-Definiciones:
-=============
+Definiciones
+============
 
 Igualdad
     Principio que reconoce la equiparación de todos los ciudadanos en derechos y obligaciones.
@@ -68,9 +72,34 @@ Igualdad
 *Equidad*
     Justicia natural, por oposición a la letra de la ley positiva.
 
+Field Lists
+-----------
 
-Preformato:
-===========
+:what:
+    Field lists map field names to field bodies, like database
+    records.  They are often part of an extension syntax.  They are
+    an unambiguous variant of RFC 2822 fields.
+
+:how arg1 arg2:
+
+    The field marker is a colon, the field name, and a colon.
+
+    The field body may contain one or more body elements, indented
+    relative to the field marker.
+
+Block Quotes
+------------
+
+Block quotes consist of indented body elements:
+
+    Mi teoría sobre la vida es que, ésta es una desmadre. Pero no dejes
+    que te impresione... Jajajaja
+
+    -- Will Santana
+
+
+Preformato
+==========
 
 Ahora, por ejemplo, veremos un texto dentro de un recuadro::
 
@@ -90,8 +119,8 @@ Este texto ya está fuera del recuadro porque no tiene identación, como en el t
 Este otro texto está fuera de la caja.
 
 
-Secciones:
-==========
+Secciones
+=========
 
 Capítulo I
 ==========
@@ -109,14 +138,102 @@ Capítulo II
 ===========
 
 
-Imágenes:
-=========
+Media
+=====
+
+
+Imágenes
+--------
 
 De una tortuga, por ejemplo.
 
 .. image:: /galleries/tortuga.jpg
    :height: 480
    :width: 640
+
+
+Vídeos
+------
+
+Youtube:
+
+.. youtube:: yYY06G4R7zY
+   :width: 700
+   :align: center
+
+Vimeo:
+
+.. vimeo:: 61620799
+   :height: 300
+   :align: left
+
+
+Código
+======
+
+Código en Python, *con* números de línea.
+
+.. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+
+Código en Python, *sin* números de línea.
+
+.. code-block:: python
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+
+
+
+Fórmulas
+========
+
+Para poder usar esta extensión, es necesario agregsar 'mathjax' a la sección tags
+del documento. Recuerda que si agregas varios tags, deberán ir separados por comas.
+
+Una identidad de Ramanujan
+--------------------------
+
+.. math::
+
+   \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+   1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+   {1+\frac{e^{-8\pi}} {1+\ldots} } } }
+
+
+Ecuación de Maxwell's
+---------------------
+
+.. math::
+
+   \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+   \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+   \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+   \nabla \cdot \vec{\mathbf{B}} & = 0
+
+
+While displaying equations look good for a page of samples, the
+ability to mix math and text in a paragraph is also important.
+This expression :math:`\sqrt{3x-1}+(1+x)^2` is an example of an
+inline equation. As you see, MathJax equations can be used this
+way as well, without unduly disturbing the spacing between lines.
 
 
 Fin del post.

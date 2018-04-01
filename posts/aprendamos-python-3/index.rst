@@ -7,6 +7,9 @@
 .. description: Aprendamos a programar en Python 3
 .. type: text
 
+**Artículo en proceso**
+=======================
+
 Vamos a ver algunos aspectos de este gran lenguaje de programación Python 3
 
 Introducción

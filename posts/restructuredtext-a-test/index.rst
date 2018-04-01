@@ -13,14 +13,12 @@ Este post está destinado a la práctica y aprendizaje del uso de ReStructuredTe
 Párrafos:
 =========
 
-Este es un párrafo corto.
-
-| Este es otro párrafo, está identado.
-
-Este es un tercer párrafo que contiene más texto. Se utiliza para ejemplificar el identado y la longitud, en pantalla, de los textos que aparecen en la página. Obviamente, habrá un salto de texto en el editor, más no en el resultado final ya
-que no habrá línea en blanco con respecto del cuarto párrafo.
-
-Aquí está el cuarto párrafo.
+| Este es un párrafo corto.
+|   Este es otro párrafo, está identado.
+|
+| Este es un tercer párrafo que contiene más texto. Se utiliza para ejemplificar el identado y la longitud, en pantalla, de los textos que aparecen en la página. Obviamente, habrá un salto de texto en el editor, más no en el resultado final
+  ya que no habrá línea en blanco con respecto del cuarto párrafo.
+| Aquí está el cuarto párrafo.
 
 Estilos de texto
 ================

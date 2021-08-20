@@ -3,12 +3,12 @@
         <title>Rust-lang - Etiqueta - Tezcatlipoca</title>
         <link>http://wilebaldosh.github.io/tags/rust-lang/</link>
         <description>Rust-lang - Etiqueta - Tezcatlipoca</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Thu, 19 Aug 2021 22:44:40 -0600</lastBuildDate><atom:link href="http://wilebaldosh.github.io/tags/rust-lang/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Fri, 20 Aug 2021 11:00:00 -0600</lastBuildDate><atom:link href="http://wilebaldosh.github.io/tags/rust-lang/" rel="self" type="application/rss+xml" /><item>
     <title>Aprendiendo Rust: El lenguaje de programación</title>
-    <link>http://wilebaldosh.github.io/posts/learning-rust/</link>
-    <pubDate>Thu, 19 Aug 2021 22:44:40 -0600</pubDate>
+    <link>http://wilebaldosh.github.io/posts/aprendiendo-rust/</link>
+    <pubDate>Fri, 20 Aug 2021 11:00:00 -0600</pubDate>
     <author>Autor</author>
-    <guid>http://wilebaldosh.github.io/posts/learning-rust/</guid>
+    <guid>http://wilebaldosh.github.io/posts/aprendiendo-rust/</guid>
     <description><![CDATA[<p>En éste artículo, hablaré sobre mis avances en Rust, el lenguaje de programación.
 WIP</p>]]></description>
 </item></channel>

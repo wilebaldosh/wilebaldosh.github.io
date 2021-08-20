@@ -19,7 +19,7 @@
 <meta name="application-name" content="Tezcatlipoca">
 <meta name="apple-mobile-web-app-title" content="Tezcatlipoca"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://wilebaldosh.github.io/posts/learning-rust/" /><link rel="prev" href="http://wilebaldosh.github.io/posts/bienvenida/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://wilebaldosh.github.io/posts/learning-rust/" /><link rel="prev" href="http://wilebaldosh.github.io/posts/bienvenida/" /><link rel="next" href="http://wilebaldosh.github.io/posts/aprendiendo-rust/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -33,7 +33,7 @@
                             "url": "http:\/\/wilebaldosh.github.io\/posts\/learning-rust\/featured-image.jpg",
                             "width":  1420 ,
                             "height":  710 
-                        }],"genre": "posts","keywords": "Rust, Rust-lang, Programming","wordcount":  2678 ,
+                        }],"genre": "posts","keywords": "Rust, Rust-lang, Programming","wordcount":  3385 ,
         "url": "http:\/\/wilebaldosh.github.io\/posts\/learning-rust\/","datePublished": "2021-08-19T22:44:40-06:00","dateModified": "2021-08-19T22:44:40-06:00","publisher": {
             "@type": "Organization",
             "name": "Will"},"author": {
@@ -83,8 +83,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Aprendiendo Rust: El lenguaje de programación</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://wilebaldosh.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Will</a></span>&nbsp;<span class="post-category">incluido en <a href="/categories/rust/"><i class="far fa-folder fa-fw"></i>Rust</a>&nbsp;<a href="/categories/programming/"><i class="far fa-folder fa-fw"></i>Programming</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-19">2021-08-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;2678 palabras&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;13 minutos&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-19">2021-08-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;3385 palabras&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;16 minutos&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -99,7 +99,13 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#1-introducción">1 Introducción</a></li>
+    <li><a href="#1-qué-es-rust">1 ¿Qué es Rust?</a></li>
+    <li><a href="#4-por-qué-usar-rust">4 ¿Por qué usar Rust?</a></li>
+    <li><a href="#2-programming-a-guessing-game">2 Programming a Guessing Game</a>
+      <ul>
+        <li><a href="#configures-un-nuevo-proyecto">Configures un nuevo proyecto.</a></li>
+      </ul>
+    </li>
     <li><a href="#2-common-programming-concepts">2 Common Programming Concepts</a></li>
     <li><a href="#3-undestanding-ownership">3 Undestanding Ownership</a></li>
     <li><a href="#4-using-structs-to-structure-related-data">4 Using Structs to Structure Related Data</a></li>
@@ -156,8 +162,58 @@ WIP</p>
             <div class="admonition-content">Éste artículo está escrito con base a mis propios aprendizajes, no pretende ser una traducción completa del libro. Para una mejor comprensión del lenguaje, visita el sitio oficial de <a href="https://www.rust-lang.org/" target="_blank" rel="noopener noreffer">Rust</a>.</div>
         </div>
     </div>
-<h2 id="1-introducción">1 Introducción</h2>
-<p>Vamos a explorar el <a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreffer">Libro de Rust</a>. Es la versión original, en inglés. Por ahí debe haber una traducción en espeñol, pero está un poco desactualizada. Además, como todo, les recomiendo aprender inglés y leer la documentación en su lengua nativa.</p>
+<h2 id="1-qué-es-rust">1 ¿Qué es Rust?</h2>
+<ul>
+<li>Es un lenguaje de programación de código abierto enfocado en seguridad, velocidad y concurrencia.</li>
+<li>Nació para programación de sistemas, aunque no es su único campo.</li>
+<li>Soporta múltiples paradigmas de programación:
+<ul>
+<li>Imperativa.</li>
+<li>Orientada a Objetos.</li>
+<li>Funcional.</li>
+<li>Concurrente.</li>
+</ul>
+</li>
+<li>Se empieza a trabajar en Rust en el 2006.</li>
+<li>La versión 1.0 se libera en el 2015.</li>
+<li>Creado por un grupo de desarrolladores de Mozilla (sí,los de Firefox).</li>
+</ul>
+<p>## 2 ¿Qué se puede hacer con Rust?</p>
+<ul>
+<li>Aplicaciones de línea de comando (CLI, por sus siglas en inglés).</li>
+<li>Sistemas operativos.</li>
+<li>Browser engine.</li>
+<li>Servidores.</li>
+<li>Escribir partes de una aplicación que sea a bajo nivel, o tiene ciertos requerimientos de performance.</li>
+<li>Webassembly.</li>
+<li>Sistemas embebibods, microcontroladores, IoT (Internet of Things).</li>
+</ul>
+<p>## 3 ¿Quiénes usan Rust?</p>
+<ol>
+<li>Mozilla.</li>
+<li>1Password.</li>
+<li>Redox.</li>
+<li>Deno.</li>
+<li>Solana.</li>
+<li>Google.
+<ul>
+<li>Fucshia OS.</li>
+<li>Android.</li>
+</ul>
+</li>
+<li>Amazon AWS.</li>
+<li>Facebook</li>
+</ol>
+<h2 id="4-por-qué-usar-rust">4 ¿Por qué usar Rust?</h2>
+<ol>
+<li><strong>Seguridad de tipos</strong>: El compilador nos asegura que ninguna operación será aplicada a una varible del tipo equivocado.</li>
+<li><strong>Seguridad de memoria</strong>: Todas las referencias siempre apuntarán a memoria válida.</li>
+<li><strong>Sin condiciones de carrera</strong>: El sistema de <em>Ownership</em> de Rust nos garantiza que múltiples partes del programa no pueden modificar el mismo valor al mismo tiempo.</li>
+<li><strong>Abstracciones a costo cero</strong>: Rust nos permite usar conceptos de alto nivel (interacciones, interfaces, enums, programación funcional, etc.) con un costo nulo o mínimo en performance.</li>
+<li><strong>Runtime mínimo</strong>: Rust tiene un runtime mínimo y lo más optimizado posible, similar a C o C++.</li>
+<li><strong>Demanda laborar</strong>: La demanda laborarl va en aumento, el lenguaje está ganando mucha popularidad.</li>
+</ol>
+<p>Vamos a explorar el <a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreffer">Libro de Rust</a>, en su versión 2018. Es la versión original, en inglés. Por ahí debe haber una traducción en espeñol, pero está un poco desactualizada. Además, como todo, les recomiendo aprender inglés y leer la documentación en su lengua nativa.</p>
 <p><strong>Rust</strong> Un lenguaje que empodera a todos para construir software fiable y eficiente.</p>
 <p>¿Por qué Rust?</p>
 <ol>
@@ -174,31 +230,65 @@ WIP</p>
 </li>
 </ol>
 <p>Bien, sigamos adelante!</p>
-<h2 id="2-common-programming-concepts">2 Common Programming Concepts</h2>
-<p>Headings from <code>h2</code> through <code>h6</code> are constructed with a <code>#</code> for each level:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="gu">## h2 Heading
-</span><span class="gu">### h3 Heading
-</span><span class="gu">#### h4 Heading
-</span><span class="gu">##### h5 Heading
-</span><span class="gu">###### h6 Heading
-</span></code></pre></div><p>The HTML looks like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>h2 Heading<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>h3 Heading<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">h4</span><span class="p">&gt;</span>h4 Heading<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">h5</span><span class="p">&gt;</span>h5 Heading<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">h6</span><span class="p">&gt;</span>h6 Heading<span class="p">&lt;/</span><span class="nt">h6</span><span class="p">&gt;</span>
-</code></pre></div><div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Heading IDs<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="gu">### A Great Heading {#custom-id}
-</span></code></pre></div><p>The HTML looks like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h3</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;custom-id&#34;</span><span class="p">&gt;</span>A Great Heading<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
-</code></pre></div></div>
-        </div>
-    </div>
+<h2 id="2-programming-a-guessing-game">2 Programming a Guessing Game</h2>
+<p>¡Entremos en Rust trabajando juntos en un proyecto práctico! Este capítulo le presenta algunos conceptos comunes de Rust mostrándole cómo usarlos en un programa real. ¡Aprenderá sobre <code>let</code>, <code>match</code>, <code>methods</code>, <code>associated functions</code>, uso de <code>extern crates</code> y más! Los siguientes capítulos explorarán estas ideas con más detalle. En este capítulo, practicarás los fundamentos.</p>
+<p>Implementaremos un problema clásico de programación para principiantes: un juego de adivinanzas. Así es como funciona: el programa generará un número entero aleatorio entre 1 y 100. Luego le pedirá al jugador que ingrese una suposición. Después de ingresar una conjetura, el programa indicará si la conjetura es demasiado baja o demasiado alta. Si la suposición es correcta, el juego imprimirá un mensaje de felicitación y terminará.</p>
+<h3 id="configures-un-nuevo-proyecto">Configures un nuevo proyecto.</h3>
+<p>Para configurar un nuevo proyecto, vaya a su directorio de proyectos, y cree un nuevo proyecto usando Cargo, así:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ cargo new guessing_game
+$ <span class="nb">cd</span> guessing_game
+</code></pre></div><p>El primer comando, <code>cargo new</code>, toma el nombre del proyecto (guessing_game) como el primr argumento. El segundo comando cambia al directorio del nuevo proyecto.</p>
+<p>Veamos lo que contiene el archivo Cargo.toml:</p>
+<p>Archivo: Cargo.toml</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">package</span><span class="p">]</span>
+<span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;guessing_game&#34;</span>
+<span class="nx">version</span> <span class="p">=</span> <span class="s2">&#34;0.1.0&#34;</span>
+<span class="nx">authors</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;Your Name &lt;you@example.com&gt;&#34;</span><span class="p">]</span>
+<span class="nx">edition</span> <span class="p">=</span> <span class="s2">&#34;2018&#34;</span>
+
+<span class="c"># See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html</span>
+
+<span class="p">[</span><span class="nx">dependencies</span><span class="p">]</span>
+</code></pre></div><p>Si la información del autor, que Cargo obtiene de tu entorno, no es correcta, puedes modificar el archivo.</p>
+<p>Como verás, <code>cargo new</code>genera un programa de “Hello, world!” para ti. Revisemos el archivo src/main.rs:</p>
+<p>Archivo: src/main.rs</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="n">println</span><span class="o">!</span><span class="p">(</span><span class="s">&#34;Hello, world!&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><pre><code class="language-terminal" data-lang="terminal">Hello, world!
+</code></pre><p>Now let’s compile this “Hello, world!” program and run it in the same step using the cargo run command:</p>
+<pre><code class="language-terminal" data-lang="terminal">$ cargo run
+   Compiling guessing_game v0.1.0 (file:///projects/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.50s
+     Running `target/debug/guessing_game`
+Hello, world!
+</code></pre><p>The run command comes in handy when you need to rapidly iterate on a project, as we’ll do in this game, quickly testing each iteration before moving on to the next one.</p>
+<p>Reopen the src/main.rs file. You’ll be writing all the code in this file.</p>
+<p>Processing a Guess
+The first part of the guessing game program will ask for user input, process that input, and check that the input is in the expected form. To start, we’ll allow the player to input a guess. Enter the code in Listing 2-1 into src/main.rs.</p>
+<p>Filename: src/main.rs</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="k">use</span><span class="w"> </span><span class="n">std</span>::<span class="n">io</span><span class="p">;</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="n">println</span><span class="o">!</span><span class="p">(</span><span class="s">&#34;Guess the number!&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="n">println</span><span class="o">!</span><span class="p">(</span><span class="s">&#34;Please input your guess.&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">guess</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">String</span>::<span class="n">new</span><span class="p">();</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="n">io</span>::<span class="n">stdin</span><span class="p">()</span><span class="w">
+</span><span class="w">        </span><span class="p">.</span><span class="n">read_line</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">guess</span><span class="p">)</span><span class="w">
+</span><span class="w">        </span><span class="p">.</span><span class="n">expect</span><span class="p">(</span><span class="s">&#34;Failed to read line&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="n">println</span><span class="o">!</span><span class="p">(</span><span class="s">&#34;You guessed: {}&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">guess</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><h6 id="listing-2-1-code-that-gets-a-guess-from-the-user-and-prints-it">Listing 2-1: Code that gets a guess from the user and prints it</h6>
+<p>This code contains a lot of information, so let’s go over it line by line. To obtain user input and then print the result as output, we need to bring the io (input/output) library into scope. The io library comes from the standard library (which is known as std):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="k">use</span><span class="w"> </span><span class="n">std</span>::<span class="n">io</span><span class="p">;</span><span class="w">
+</span></code></pre></div><p>By default, Rust brings only a few types into the scope of every program in the prelude. If a type you want to use isn’t in the prelude, you have to bring that type into scope explicitly with a use statement. Using the std::io library provides you with a number of useful features, including the ability to accept user input.</p>
+<p>As you saw in Chapter 1, the main function is the entry point into the program:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></code></pre></div><h2 id="2-common-programming-concepts">2 Common Programming Concepts</h2>
 <h2 id="3-undestanding-ownership">3 Undestanding Ownership</h2>
 <p>Comments should be HTML compatible.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--
@@ -750,7 +840,8 @@ This is a footnote with &#34;label&#34;[^label]
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/bienvenida/" class="prev" rel="prev" title="Bienvenida"><i class="fas fa-angle-left fa-fw"></i>Bienvenida</a></div>
+    <div class="post-nav"><a href="/posts/bienvenida/" class="prev" rel="prev" title="Bienvenida"><i class="fas fa-angle-left fa-fw"></i>Bienvenida</a>
+            <a href="/posts/aprendiendo-rust/" class="next" rel="next" title="Aprendiendo Rust: El lenguaje de programación">Aprendiendo Rust: El lenguaje de programación<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

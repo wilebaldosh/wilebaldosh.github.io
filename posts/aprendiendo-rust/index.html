@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Aprendiendo Rust: El lenguaje de programación - Tezcatlipoca</title><meta name="Description" content="Mis notas sobre lo que he aprendido en Rust."><meta property="og:title" content="Aprendiendo Rust: El lenguaje de programación" />
+<meta property="og:description" content="Mis notas sobre lo que he aprendido en Rust." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://wilebaldosh.github.io/posts/aprendiendo-rust/" /><meta property="og:image" content="http://wilebaldosh.github.io/posts/aprendiendo-rust/featured-image.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-20T11:00:00-06:00" />
+<meta property="article:modified_time" content="2021-08-19T12:00:00-06:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://wilebaldosh.github.io/posts/aprendiendo-rust/featured-image.jpg"/>
+<meta name="twitter:title" content="Aprendiendo Rust: El lenguaje de programación"/>
+<meta name="twitter:description" content="Mis notas sobre lo que he aprendido en Rust."/>
+<meta name="application-name" content="Tezcatlipoca">
+<meta name="apple-mobile-web-app-title" content="Tezcatlipoca"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://wilebaldosh.github.io/posts/aprendiendo-rust/" /><link rel="prev" href="http://wilebaldosh.github.io/posts/bienvenida/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprendiendo Rust: El lenguaje de programación",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/wilebaldosh.github.io\/posts\/aprendiendo-rust\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/wilebaldosh.github.io\/posts\/aprendiendo-rust\/featured-image.jpg",
+                            "width":  1420 ,
+                            "height":  710 
+                        }],"genre": "posts","keywords": "Rust, Rust-lang, Programming","wordcount":  293 ,
+        "url": "http:\/\/wilebaldosh.github.io\/posts\/aprendiendo-rust\/","datePublished": "2021-08-20T11:00:00-06:00","dateModified": "2021-08-19T12:00:00-06:00","publisher": {
+            "@type": "Organization",
+            "name": "Will"},"author": {
+                "@type": "Person",
+                "name": "Will"
+            },"description": "Mis notas sobre lo que he aprendido en Rust."
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Tezcatlipoca">Tezcatlipoca</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Tezcatlipoca">Tezcatlipoca</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Aprendiendo Rust: El lenguaje de programación</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://wilebaldosh.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Will</a></span>&nbsp;<span class="post-category">incluido en <a href="/categories/rust/"><i class="far fa-folder fa-fw"></i>Rust</a>&nbsp;<a href="/categories/programming/"><i class="far fa-folder fa-fw"></i>Programming</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-20">2021-08-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;293 palabras&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutos&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/aprendiendo-rust/featured-image.jpg"
+        data-srcset="/posts/aprendiendo-rust/featured-image.jpg, /posts/aprendiendo-rust/featured-image.jpg 1.5x, /posts/aprendiendo-rust/featured-image.jpg 2x"
+        data-sizes="auto"
+        alt="/posts/aprendiendo-rust/featured-image.jpg"
+        title="Mis notas sobre lo que he aprendido en Rust." /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-qué-es-rust">1 ¿Qué es Rust?</a></li>
+    <li><a href="#2-qué-se-puede-hacer-con-rust">2 ¿Qué se puede hacer con Rust?</a></li>
+    <li><a href="#3-quiénes-usan-rust">3 ¿Quiénes usan Rust?</a></li>
+    <li><a href="#4-por-qué-usar-rust">4 ¿Por qué usar Rust?</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>En éste artículo, hablaré sobre mis avances en Rust, el lenguaje de programación.
+WIP</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Nota<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Éste artículo está escrito con base a mis propios aprendizajes, no pretende ser una traducción completa del libro. Para una mejor comprensión del lenguaje, visita el sitio oficial de <a href="https://www.rust-lang.org/" target="_blank" rel="noopener noreffer">Rust</a>.</div>
+        </div>
+    </div>
+<h2 id="1-qué-es-rust">1 ¿Qué es Rust?</h2>
+<ul>
+<li>Es un lenguaje de programación de código abierto enfocado en seguridad, velocidad y concurrencia.</li>
+<li>Nació para programación de sistemas, aunque no es su único campo.</li>
+<li>Soporta múltiples paradigmas de programación:
+<ul>
+<li>Imperativa.</li>
+<li>Orientada a Objetos.</li>
+<li>Funcional.</li>
+<li>Concurrente.</li>
+</ul>
+</li>
+<li>Se empieza a trabajar en Rust en el 2006.</li>
+<li>La versión 1.0 se libera en el 2015.</li>
+<li>Creado por un grupo de desarrolladores de Mozilla (sí,los de Firefox).</li>
+</ul>
+<h2 id="2-qué-se-puede-hacer-con-rust">2 ¿Qué se puede hacer con Rust?</h2>
+<ul>
+<li>Aplicaciones de línea de comando (CLI, por sus siglas en inglés).</li>
+<li>Sistemas operativos.</li>
+<li>Browser engine.</li>
+<li>Servidores.</li>
+<li>Escribir partes de una aplicación que sea a bajo nivel, o tiene ciertos requerimientos de performance.</li>
+<li>Webassembly.</li>
+<li>Sistemas embebibods, microcontroladores, IoT (Internet of Things).</li>
+</ul>
+<h2 id="3-quiénes-usan-rust">3 ¿Quiénes usan Rust?</h2>
+<ol>
+<li>Mozilla.</li>
+<li>1Password.</li>
+<li>Redox.</li>
+<li>Deno.</li>
+<li>Solana.</li>
+<li>Google.
+<ul>
+<li>Fucshia OS.</li>
+<li>Android.</li>
+</ul>
+</li>
+<li>Amazon AWS.</li>
+<li>Facebook.</li>
+</ol>
+<h2 id="4-por-qué-usar-rust">4 ¿Por qué usar Rust?</h2>
+<ol>
+<li><strong>Seguridad de tipos</strong>: El compilador nos asegura que ninguna operación será aplicada a una varible del tipo equivocado.</li>
+<li><strong>Seguridad de memoria</strong>: Todas las referencias siempre apuntarán a memoria válida.</li>
+<li><strong>Sin condiciones de carrera</strong>: El sistema de <em>Ownership</em> de Rust nos garantiza que múltiples partes del programa no pueden modificar el mismo valor al mismo tiempo.</li>
+<li><strong>Abstracciones a costo cero</strong>: Rust nos permite usar conceptos de alto nivel (interacciones, interfaces, enums, programación funcional, etc.) con un costo nulo o mínimo en performance.</li>
+<li><strong>Runtime mínimo</strong>: Rust tiene un runtime mínimo y lo más optimizado posible, similar a C o C++.</li>
+<li><strong>Demanda laborar</strong>: La demanda laborarl va en aumento, el lenguaje está ganando mucha popularidad.</li>
+</ol></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Actualizado el 2021-08-19</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/rust/">Rust</a>,&nbsp;<a href="/tags/rust-lang/">Rust-lang</a>,&nbsp;<a href="/tags/programming/">Programming</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/">Inicio</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/bienvenida/" class="prev" rel="prev" title="Bienvenida"><i class="fas fa-angle-left fa-fw"></i>Bienvenida</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

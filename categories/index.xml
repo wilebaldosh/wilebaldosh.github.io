@@ -1,14 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Categoría - Tezcatlipoca</title>
-        <link>http://example.org/categories/</link>
+        <link>http://wilebaldosh.github.io/categories/</link>
         <description>Categories - Categoría - Tezcatlipoca</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Markdown</title>
-    <link>http://example.org/categories/markdown/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Thu, 19 Aug 2021 22:44:40 -0600</lastBuildDate><atom:link href="http://wilebaldosh.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Programming</title>
+    <link>http://wilebaldosh.github.io/categories/programming/</link>
+    <pubDate>Thu, 19 Aug 2021 22:44:40 -0600</pubDate>
     <author>Autor</author>
-    <guid>http://example.org/categories/markdown/</guid>
+    <guid>http://wilebaldosh.github.io/categories/programming/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Rust</title>
+    <link>http://wilebaldosh.github.io/categories/rust/</link>
+    <pubDate>Thu, 19 Aug 2021 22:44:40 -0600</pubDate>
+    <author>Autor</author>
+    <guid>http://wilebaldosh.github.io/categories/rust/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>General</title>
+    <link>http://wilebaldosh.github.io/categories/general/</link>
+    <pubDate>Thu, 19 Aug 2021 20:15:50 -0600</pubDate>
+    <author>Autor</author>
+    <guid>http://wilebaldosh.github.io/categories/general/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

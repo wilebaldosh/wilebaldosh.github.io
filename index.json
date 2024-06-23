@@ -16,20 +16,8 @@
         
         
     
-        
-        
-        
-    
-        
-        
-        
-    
-        
-        
-        
-    
-    "articles": [{"date":"2024-05-03","image":"","imageAlt":"","link":"http://localhost:1313/posts/2024-05-03-preparar-emacs-orgmode-hugo-blog/","summary":"He tenido esa idea loca de escribir en Emacs y crear un blog. La ociosidad es la madre de todos los vicios, así que vamos por ello.\nTengo dos laptops, una MackBook Pro de mediados del 2012, y una Lenovo. Ambos equipos me han salido muy buenos, así que la idea es poder escribir en ambos equipos y tener sincronizados los archivos.\n¿Cómo lo haremos? Los artículos están escritos en Emacs utilizando org-mode para su redacción y ox-hugo como exportador markdown compatible con Hugo que es el encargado de generar el sitio.","tags":["blog","emacs","hugo","orgmode"],"title":"Preparando Emacs, Org-Mode y Hugo para este blog"},{"date":"2024-05-02","image":"","imageAlt":"","link":"http://localhost:1313/posts/2024-05-02-regexp-comillas-inicio-y-fin/","summary":"¡Tenía un problema! Debía agregar comillas dobles \u0026lsquo;\u0026quot;\u0026rsquo; al inicio y al final de 120 líneas diferentes, por lo que no debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).\nPara agregar texto al inicio de cada línea:\nSi se hace en un buffer:\nPresiona M-\u0026lt; para ir al establecer una marca al inicio.\nSi se hace en una región:\nPresiona C-SPC al principio de la primera línea.","tags":["emacs"],"title":"Añandiendo texto al inicio y al final de varias líneas."},{"date":"2024-05-01","image":"","imageAlt":"","link":"http://localhost:1313/posts/2024-05-01-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.","tags":["general"],"title":"Bienvenida"},{"date":"0001-01-01","image":"","imageAlt":"","link":"http://localhost:1313/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"http://localhost:1313/search/","summary":"","tags":[],"title":"Search"}],
-    "test": "Preparando Emacs, Org-Mode y Hugo para este blog   Añandiendo texto al inicio y al final de varias líneas.   Bienvenida   Manifest   Search   ",
+    "articles": [{"date":"0001-01-01","image":"","imageAlt":"","link":"https://wilebaldosh.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://wilebaldosh.github.io/search/","summary":"","tags":[],"title":"Search"}],
+    "test": "Manifest   Search   ",
     "page": "1",
     "next": ""
 }

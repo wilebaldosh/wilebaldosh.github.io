@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Categories on De tocho morocho!</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://wilebaldosh.github.io/categories/</link>
     <description>Recent content in Categories on De tocho morocho!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>BxCx - El contenido del sitio está bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) · El código del sitio es de licencia MIT.</copyright>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
-    
-    
-    <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/blog/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Emacs</title>
-      <link>http://localhost:1313/categories/emacs/</link>
-      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/emacs/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Wed, 01 May 2024 13:00:00 -0700</pubDate>
-      
-      <guid>http://localhost:1313/categories/general/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
+    <copyright>BxCx - El contenido del sitio está bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) · El código del sitio es de licencia MIT.</copyright><atom:link href="https://wilebaldosh.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><icon>https://wilebaldosh.github.io/logo.svg</icon>
     
   </channel>
 </rss>

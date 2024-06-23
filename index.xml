@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BxCx Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on BxCx Blog</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Other post</title>
+      <link>http://localhost:1313/posts/2024-06-04-other-post/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-04-other-post/</guid>
+      <description>Keep bloggin</description>
+    </item>
+    <item>
+      <title>Hello There!</title>
+      <link>http://localhost:1313/posts/2024-06-03-hello-emacs/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-03-hello-emacs/</guid>
+      <description>General Kenobi</description>
+    </item>
+    <item>
+      <title>Bienvenida 2</title>
+      <link>http://localhost:1313/posts/2024-06-02-bienvenida2/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-02-bienvenida2/</guid>
+      <description>Otra bienvenida, la 2º</description>
+    </item>
+    <item>
+      <title>Bienvenida</title>
+      <link>http://localhost:1313/posts/2024-06-01-bienvenida/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-01-bienvenida/</guid>
+      <description>Hola. Bienvenidos a mi bloggin!</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+
+{
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+    
+        
+        
+        
+    
+        
+        
+        
+    
+    "articles": [{"date":"2024-06-22","image":"","imageAlt":"","link":"https://wilebaldosh.github.io/posts/2024-05-01-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.","tags":["blog","general"],"title":"Bienvenida"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://wilebaldosh.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://wilebaldosh.github.io/search/","summary":"","tags":[],"title":"Search"}],
+    "test": "Bienvenida   Manifest   Search   ",
+    "page": "1",
+    "next": ""
+}
+

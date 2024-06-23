@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Emacs on De tocho morocho!</title>
+    <link>http://localhost:1313/categories/emacs/</link>
+    <description>Recent content in Emacs on De tocho morocho!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>BxCx - El contenido del sitio está bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) · El código del sitio es de licencia MIT.</copyright>
+    <lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/emacs/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Añandiendo caracteres al inicio y al final de varias líneas.</title>
+      <link>http://localhost:1313/posts/2024-05-02-regexp-comillas-inicio-y-fin/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-05-02-regexp-comillas-inicio-y-fin/</guid>
+      <description><![CDATA[<p>¡Tenía un problema! Debía agregar comillas dobles &lsquo;&quot;&rsquo; al inicio y al final de 120 líneas diferentes, por lo que no
+debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).</p>
+<p><strong><em>Para agregar texto al inicio de cada línea</em></strong>:</p>
+<ul>
+<li>
+<p>Si se hace en un buffer:</p>
+<p>Presiona <code>M-&lt;</code> para ir al establecer una marca al inicio.</p>
+</li>
+<li>
+<p>Si se hace en una región:</p>
+<p>Presiona  <code>C-SPC</code> al principio de la primera línea.</p>
+</li>
+<li>
+<p>Por último: <code>M-x</code> replace-regexp RET ^ RET TuTexto RET&quot;=, para agregar &lsquo;<strong>TuTexto</strong>&rsquo;.</p>
+</li>
+</ul>
+<p>To do this to a region, use string-insert-rectangle. Set the mark (C-SPC) at the beginning of the first line you want to prefix, move the cursor to last line to be prefixed, and type M-x string-insert-rectangle RET. To do this for the whole buffer, type C-x h M-x string-insert-rectangle RET.</p>
+<p>If you are trying to prefix a yanked mail message with ‘&gt;’, you might want to set the variable mail-yank-prefix. In Message buffers, you can even use M-; to cite yanked messages (M-; runs the function comment-region, it is a general-purpose mechanism to comment regions) (see How do I change the included text prefix in mail/news followups?).</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
